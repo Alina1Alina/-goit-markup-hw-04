@@ -120,6 +120,8 @@ margin-right: 50px;
 
 .header-contact {
     display: flex;
+    align-items: center;
+
     padding-top: 32px;
     padding-bottom: 32px;
     margin-left: auto;
@@ -135,7 +137,8 @@ font-weight: 500;
 text-decoration: none;
 line-height: 1.14;
 letter-spacing: 0.02em;
-
+display: flex;
+align-items: center;
 
 
 }
@@ -263,25 +266,10 @@ margin-top: 10px;
     background-color: var(--bgc-color-commands);
     border-radius: 4px;
     margin-bottom: 30px;
-}
-
-.principles-link {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
-
-.principles-soc-icon {
-    align-items: center;
-    justify-content: center;
-
-}
-
-
-
-
-
 
 /* ------WORK------ */
 .examples {
@@ -523,19 +511,29 @@ font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.03em;
 text-transform: uppercase;
+
 color: var(--white-color-text);
+
+margin-right: auto;
+margin-left: 156px;
+margin-top: 10px;
+margin-bottom: 20px;
 
 }
 
  .footer-soc-list {
-    display: flex;
+   display: flex;
     justify-content: center;
     gap: 10px;
+    margin-left: 156px;
+
 } 
 
 .footer-soc-item {
     width: 44px;
     height: 44px;
+    
+    
 }
 .footer-soc-link {
     width: 100%;
@@ -546,9 +544,11 @@ color: var(--white-color-text);
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 
 .footer-soc-icon {
+    
     fill: var(--white-color-text);
     }
     
@@ -556,6 +556,13 @@ color: var(--white-color-text);
     .footer-soc-link:focus  {
         background-color: var(--accent-text-color);
     }
+
+    .footer-container {
+        display: flex;
+    }
+
+
+
 
 
 
@@ -611,6 +618,9 @@ font-size: 16px;
 line-height: 1.9;
 margin-top: 4px;
 
+}
+.portfolio-item-link {
+    text-decoration: none;
 }
 
 .portfolio-item:hover,
